@@ -1,0 +1,32 @@
+#showsketch{
+    float: right;
+    height: 50px;
+}
+#score{
+    float: left;
+}
+
+#timer{
+    float: right;
+}
+body{
+    background: rgb(132, 223, 239);
+    color: azure;
+    font-family: 'Zen Antique', serif;
+}
+h1{
+    color: aliceblue;
+    height: 50px;
+}
+canvas{
+    border: 1px solid rgb(249, 249, 249);
+    border-radius: 20px;
+    margin-top: 150px;
+    animation-name: effect;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes effect{
+    from{box-shadow: 1px 1px 38px rgb(255, 250, 250);}
+    to{box-shadow: 1px 1px 38px rgb(202, 202, 202);}
+}
